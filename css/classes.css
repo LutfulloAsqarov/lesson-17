@@ -1,0 +1,65 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+.df {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__info {
+    justify-content: flex-start;
+    gap: 8px;
+    color: #57b8ff;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #fff;
+    font-family: Orbitron;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    padding: 14px 0 40px;
+    text-transform: capitalize;
+}
+
+.sub-title {
+    color: #999;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 50px;
+    
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--primary-color);
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 21px 34px;
+    text-transform: capitalize;
+    border: 1px solid #FFF;
+    transition: .4s;
+}
+
+.btn:hover {
+     color: var(--primary-color);
+    background-color: #fff;
+}

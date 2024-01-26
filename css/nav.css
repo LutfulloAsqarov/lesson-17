@@ -1,0 +1,138 @@
+header {
+    background-image: linear-gradient(90deg, #000 0 50%, #57B8FF 50% 100%);
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    /* background-color: transparent; */
+    background-image: linear-gradient(90deg, #000 0 50%, #57B8FF 50% 100%);
+    z-index: 9999;
+}
+
+.nav__list {
+    gap: 60px;
+}
+
+.nav__btns {
+    gap: 24px;
+}
+
+.nav__link {
+    color: #fff;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    transition: 0.4s;
+}
+
+.nav__item:hover .nav__link {
+    color: #fac422;
+}
+
+#mode-btn {
+    background-color: transparent;
+}
+
+#mode-btn img {
+    width: 48px;
+    height: 48px;
+}
+
+.hero__team__btn {
+    border: transparent;
+}
+
+/* #navbar-responsive {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    transition: 0.5s;
+} */
+
+.nav__hamburger {
+    background-color: transparent;
+}
+
+.nav__hamburger img {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.light .nav__btn {
+    border: 1px solid #000;
+}
+
+#navbar-close img {
+    display: none;
+}
+
+@media (max-width: 1060px) {
+    /* .nav__list {
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        z-index: 9999;
+    } */
+
+    #navbar-responsive {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        transition: 0.5s;
+    }
+
+    .nav__link {
+        color: var(--primary-color);
+    }
+
+    .nav__hamburger img {
+        display: block;
+    }
+
+    #navbar-close img {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        background: red;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav__btn {
+        display: none;
+    }
+
+    .nav__hamburger img {
+        width: 30px;
+    }
+
+    #mode-btn img {
+        width: 30px;
+    }
+}

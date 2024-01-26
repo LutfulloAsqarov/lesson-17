@@ -1,0 +1,35 @@
+#era {
+    padding: 85px 0;
+    background-color: #000;
+}
+
+/* #era .df {
+    gap: 95px;
+} */
+
+.era__left {
+    max-width: 732.656px;
+}
+
+.era__left .title {
+    font-size: 64px;
+}
+
+.era__container {
+    gap: 95px;
+}
+
+.era__right {
+    max-width: 492px;
+}
+
+.era__right-img {
+    width: 100%;
+}
+
+
+@media (max-width:1100px) {
+    .era__container {
+        flex-direction: column;
+    }
+}

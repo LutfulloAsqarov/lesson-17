@@ -1,0 +1,48 @@
+#community {
+    padding: 130px 0;
+    background: url("../images/community.png") no-repeat;
+    background-size: cover;
+}
+
+#community .title {
+    color: #141820;
+    font-size: 72px;
+}
+
+
+.community-container {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 847px;
+    text-align: center;
+}
+
+.email__btn {
+    gap: 0;
+    color: #555;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 21px 226px 21px 13px;
+}
+
+@media (max-width:720px) {
+
+    .community-container .title p {
+        font-size: 40px;
+    }
+    
+    .email__btn {
+        padding: 21px 21px;
+        font-size: 12px;
+    }
+
+    .community__btns .btn {
+        font-size: 12px;
+    }
+
+
+}
+
